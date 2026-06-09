@@ -2,42 +2,37 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-header{
-    position: sticky;
-    top: 0;
 
 }
-
-nav{
+.navbar{
+    background-color: rgb(6, 234, 154);
+    color: rgb(14, 14, 14);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
+
+
 
 }
 
-img{
-    
-    min-height: 40px;
-    max-height: 40px;
-   
-}
 
 .list ul{
-    
+    list-style: none;
     display: flex;
     justify-content: center;
-    gap: 34px;
- 
-    
-}
-.list ul li{
-    
-    list-style: none;
-    color: rgb(8, 8, 8);
-    align-items: end;
-    
+    align-items: center;
 
+
+
+}
+.list ul li a{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-size: 18px;
+    padding: 8px 12px;
+   
+
+
+   
+    
 }
