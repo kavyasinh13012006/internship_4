@@ -1,71 +1,93 @@
+*{
+    padding: 0;
+    margin :0;
+    box-sizing: border-box;
+
+}
+.card {
+    border: 2px solid gray;
+    min-height: 250px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.img-box{
+    min-width: 100%;
+
+    
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
 
-    :root {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+}
 
-    .element {
-        border: 2px solid gray;
-        height: 600px;
-        width: 400px;
-        display: block;
-        margin: auto;
-        border-radius: 20px;
+img {
+    border-radius : 15px;
+    max-width: 100%;
+    display: block;
 
-    }
+}
 
-    .photo img {
-        padding: 5px;
-        display: block;
-        margin: auto;
-        width: 380px;
-        height: 250px;
-        border-radius: 20px;
-    }
+.information {
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
 
-    span {
-        background-color: white;
-        display: inline-block;
-        color: gray;
-        border: 1px solid gray;
-        padding: 5px;
-        border-radius: 15px;
-        margin-top: 10px;
-        margin-left: 15px;
-        width: 60px;
-        text-align: center;
-        cursor: pointer;
-    }
+.dtn{
+    max-width: 100%;
+    display: flex;
+    gap: 20px;
+}
 
 
-    h1 {
-        display: block;
-        margin-left: 15px;
-    }
+span {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+    max-width: 60px;
+    padding: 10px;
+}
 
-    p {
-        margin: 25px;
-        text-align: justify;
-    }
 
-    #readmore {
-        background-color: gray;
-        color: white;
-        display: block;
-        margin: auto;
-        width: 100px;
-        text-align: center;
-        padding: 10px;
-        border-radius: 15px;
-        cursor: pointer;
-        font-weight: bolder;
-    }
+h1 {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
 
-    #readmore:hover {
-        background-color: white;
-        color: black;
-        border: 2px solid black;
-        text-align: center;
-        padding: 10px;
-        border-radius: 15px;
-    }
+
+
+a {
+    background-color: gray;
+    color: white;
+    display: block;
+    margin: 10px;
+    max-width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.readmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
