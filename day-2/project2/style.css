@@ -6,7 +6,7 @@
 
 body{
     background-color: black;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 /* Navbar */
@@ -36,13 +36,13 @@ header{
     background-color: green;
     margin: 20px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .box1 {
     width: 180px;
-    min-height: 180px;
+    height: 180px;
     background-color: lightcoral;
 }
 
