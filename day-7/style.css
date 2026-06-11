@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{ 
+   
+    background-image: url("images12.jfif");
+   
+    
+}
+.socialmedia-card{
+    height:900px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile-card{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    max-width: 400px;
+    min-height: 600px;
+}
+
+.first-section{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section img{
+
+    height: 30px;
+    width: 30px;
+}
+.first-section img :hover{
+    color: azure;
+
+}
+
+.second-section{
+    
+    max-width: 100%;
+    min-height: 300px;
+    margin : 10px;
+    text-align: center;
+
+}
+.second-section  img{
+    
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 50px;
+}
+.info p{
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    border :1px solid black;
+    border-radius: 40px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+button:hover{
+    background-color: azure;
+    color: black;
+}
+.third-section{
+    max-width: 100%;
+    min-height: 200px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  
+}
+.third-section img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.profile-card1{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(231, 236, 238);
+    max-width: 400px;
+    min-height: 600px;
+}
+.first-section1{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section1 img{
+
+    height: 30px;
+    width: 30px;
+}
+.first-section1 img :hover{
+    color: azure;
+
+}
+
+.second-section1{
+    
+    max-width: 100%;
+    min-height: 300px;
+    margin : 10px;
+    text-align: center;
+
+}
+.second-section1  img{
+    
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 50px;
+}
+.info1 p{
+    padding: 10px;
+    margin: 5px;
+}
+.third-section1{
+    max-width: 100%;
+    min-height: 200px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  
+}
+.third-section1 img{
+    width: 50px;
+    height: 50px;
+    
+}
+@media screen and (max-width: 480px) {
+    .socialmedia-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+
+
