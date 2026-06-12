@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:sans-serif;
+    
 }
 body{ 
    
     background-image: url("images12.jfif");
+      font-family: "Baloo Bhai 2", sans-serif;
    
     
 }
@@ -16,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
 }
 .profile-card{
@@ -26,6 +28,7 @@ body{
     background-color: aqua;
     max-width: 400px;
     min-height: 600px;
+    box-shadow: 8px 6px 20px 2px #1e8784db;;
 }
 
 .first-section{
@@ -59,11 +62,23 @@ body{
     object-fit:cover;
     border-radius: 50px;
 }
+.second-section > h1{
+    letter-spacing: 10px;
+    text-shadow: 8px 3px 12px black;
+    
+}
 .info p{
     padding: 10px;
     margin: 5px;
 }
-
+h1::selection{
+  background-color: orange;
+  color: white;
+}
+p::selection{
+  background-color: orange;
+  color: white;
+}
 button{
     width: 150px;
     margin: 20px;
@@ -78,6 +93,9 @@ button{
 button:hover{
     background-color: azure;
     color: black;
+} 
+button::after{
+  content: " * ";
 }
 .third-section{
     max-width: 100%;
@@ -91,6 +109,11 @@ button:hover{
 .third-section img{
     width: 50px;
     height: 50px;
+    border-radius: 10px;
+    box-shadow:18px 7px 10px 0px #1e8784db;
+    
+
+
     
 }
 
@@ -102,6 +125,7 @@ button:hover{
     background-color: rgb(231, 236, 238);
     max-width: 400px;
     min-height: 600px;
+    box-shadow:  8px 6px 20px 2px #1e8784db;
 }
 .first-section1{
     
@@ -125,8 +149,14 @@ button:hover{
     min-height: 300px;
     margin : 10px;
     text-align: center;
-
 }
+.second-section1 > h1{
+    letter-spacing: 10px;
+    text-shadow: 8px 3px 12px black;
+   
+}
+
+
 .second-section1  img{
     
     width: 100px;
@@ -150,6 +180,10 @@ button:hover{
 .third-section1 img{
     width: 50px;
     height: 50px;
+    border-radius: 10px;
+    box-shadow: 18px 7px 10px 0px #1e8784db;
+
+
     
 }
 @media screen and (max-width: 480px) {
