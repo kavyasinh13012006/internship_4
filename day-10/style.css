@@ -1,0 +1,134 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: "Elms Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+.Main {
+  background-color: rgba(173, 67, 129, 0.596);
+  padding-block: 100px;
+}
+.container {
+  display: block;
+  align-items: center;
+  width: 100%;
+  max-width: 1338px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+.box-model {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+    align-items: center
+
+}
+.inforamtion {
+    display: block;
+}
+
+.leftside1 {
+    margin-left: 0;
+    max-width: max-content;
+    margin-right: auto;
+    font-size: 18px;
+
+}
+
+.leftside2 {
+
+  margin-bottom: 11px;
+  line-height: 1.2;
+}
+
+.leftside3 {
+
+    border-bottom: 3px solid #00ac8d;
+    border-radius: 100px;
+    width: 68px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+
+.heading {
+  color: #2d3436;
+  font-size:32px;
+  font-weight: 600;
+  line-height: 36px;
+    margin-block: 20px;
+
+}
+.primary-heading {
+  color: #00ac8d;
+  font-weight: 500;
+}
+.description {
+  max-width: 570px;
+  margin-block: 0;
+  
+}
+
+.work-benefites {
+    display: grid;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    grid-template-rows: auto;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+}
+.title{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.benefits {
+  color: #002a4d;
+  background-color: #fff;
+  padding: 40px;
+}
+.benefits-description{
+    max-width: 225px;
+}
+.benefites-img {
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+}
+
+.benefites-img img {
+  width: 55px;
+  height: 55px;
+
+  position: relative;
+}
+
+.img-contant {
+  
+  height: 100%;
+  
+}
+.img-contant img {
+  
+object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+}
