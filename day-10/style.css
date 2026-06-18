@@ -280,6 +280,7 @@ img {
 .hero-img-logo {
   min-height: 20px;
   max-width: 130px;
+  cursor: pointer;
    filter: grayscale(1);
 }
 
