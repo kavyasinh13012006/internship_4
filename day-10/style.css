@@ -85,35 +85,38 @@ img {
   gap: 50px;
   grid-template-columns: repeat(2, 1fr);
   display: grid;
+  
 }
 
 
 
 .leftside1 {
   max-width: max-content;
-  font-size: 18px;
+  
 }
 
 .leftside2 {
   margin-bottom: 12px;
+  font-size: 18px;
 
 }
 
 .leftside3 {
   border: 2px solid #00ac8d;
   border-radius: 6px;
-  width: 68px;
+  max-width: 68px;
   
 }
 
 .heading {
-     color: #2d3436;
+  color: #2d3436;
   font-size: 30px;
   margin-block: 20px;
 }
 .primary-heading {
   color: #00ac8d;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 32px;
 }
 
 .work-benefites {
@@ -133,15 +136,17 @@ img {
 
 .benefits {
   background-color:rgb(255, 255, 255);
+  color: #002a4d;
   padding: 40px;
 }
 
 .benefites-img {
   width: 55px;
-  height: 55px;
+  aspect-ratio: 1;
 }
-.benefits-description{
-  color: #002a4d;
+
+.description{
+  max-width: 570px;
 }
 
 
