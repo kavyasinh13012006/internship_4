@@ -8,12 +8,24 @@ body{
     font-family: "Roboto", sans-serif;
 }
 header{
+
       width: 100%;
+      background-color: rgb(126, 126, 219);
+
+}
+img{
+    max-width: 100%;
+    display: block;
 }
 
+.img-cover{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
 .navgation-bar{
     max-width: 100%;
-    background-color: rgb(126, 126, 219);
+  
 }
 
 .nav-bar{
@@ -25,11 +37,8 @@ header{
 .logo-img{
      margin-top: 10px;
 }
-.logo-img img{
- max-width: 100%;
- min-height: 50px;
- object-fit: cover;
-}
+
+
 .manu ul{
     display: flex;
     justify-content: center;
@@ -43,15 +52,18 @@ header{
 
 }
 
-.icon img{
+.manu-icon{
     max-width: 50px;
     display: none;
 
 }
 
 
-@media screen  {
-    
+@media screen  (max-width: 767px)
+{
+
 }
+    
+
 
 
