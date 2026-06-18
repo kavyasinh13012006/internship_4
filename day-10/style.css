@@ -183,7 +183,7 @@ img {
 
 
 .description-1 {
-  padding-block: 30px;
+  margin-block: 30px;
 }
 
 .btn {
@@ -215,7 +215,7 @@ img {
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
-  padding-top: 20px;
+  margin-top: 40px;
 
 }
 
@@ -225,6 +225,7 @@ img {
   background-color: rgb(255, 255, 255);
   padding: 30px;
   color: rgb(0, 0, 0);
+  gap: 50px;
   transition: all 0.3s ease-out;
 }
 .box:hover {
@@ -241,9 +242,7 @@ img {
   background-color: white;
 }
 
-.content {
-  margin-top: 50px;
-}
+
 
 .number {
  
@@ -323,14 +322,13 @@ footer {
   color: rgb(0, 172, 141);
 }
 .footer-icon {
+  aspect-ratio: 1;
   width: 30px;
-}
-
-
-.footer-icon:hover {
-  color: rgb(0, 172, 141);
+   color: rgb(0, 172, 141);
   transition: all 0.3s ease-in-out;
 }
+
+
 .footer-icon-wrapper{
   display: flex;
   gap: 10px;
@@ -339,9 +337,8 @@ footer {
 ------------media query-------------- */
 
 @media only screen and (max-width: 991px) {
-  .first-main {
-
-  padding-block: 60px;
+  .second-main {
+    padding-top: 60px;
   }
   .boxess {
     grid-template-columns: 1fr;
@@ -362,7 +359,7 @@ footer {
 @media only screen and (max-width: 767px) {
   /* frist-section */
   .second-main{
-    padding-top: 20px;
+    padding-top: 0;
   }
   .img-contant {
     width: 100%;
@@ -404,7 +401,9 @@ footer {
   .description{
     max-width: 100%;
   }
-
+.benefites-img {
+  width: 46px;
+}
   .heading-1 {
     font-size: 30px;
     margin-top: 10px;
