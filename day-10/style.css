@@ -1,3 +1,5 @@
+
+
 * {
   padding: 0;
   margin: 0;
@@ -5,10 +7,14 @@
 }
 
 body {
-  font-family: "Elms Sans", sans-serif;
+  font-family: Google Sans, sans-serif;
   font-size: 14px;
-  background-color: rgb(223, 235, 245);
-  font-weight: 500;
+  color: black;
+  background-color: #f5f6fa;
+ display: flex;
+ flex-direction: column;
+ min-height: 10vh;
+
   line-height: 1.2;
 }
 
@@ -121,11 +127,12 @@ img {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 18px;
+  font-weight: 500;
 
 }
 
 .benefits {
-  background-color: #f5f9fd;
+  background-color:rgb(255, 255, 255);
   padding: 40px;
 }
 
@@ -207,8 +214,7 @@ img {
 .box {
   display: flex;
   flex-direction: column;
-
-  background-color: #f5f9fd;
+  background-color: rgb(255, 255, 255);
   padding: 30px;
   color: rgb(0, 0, 0);
   transition: all 0.3s ease-out;
@@ -276,14 +282,17 @@ footer {
   color: #fff;
   background-color: #002a4d;
   padding-block: 14px;
+  margin-top: auto;
 }
 
 .footer-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .copyright {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,16 +321,22 @@ footer {
 /* 
 ------------media query-------------- */
 
-
-@media only screen and (max-width: 479px) {
-  .img-contant {
-    width: 100%;
-  }
-
-  .work-benefites {
+@media only screen and (max-width: 991px) {
+  .boxess {
     grid-template-columns: 1fr;
+    gap:10px;
+  }
+  .box-model-1{
+    gap:20px;
+  }
+  .benefits{
+    padding: 20px;
   }
 }
+
+
+
+
 
 @media only screen and (max-width: 767px) {
   /* frist-section */
@@ -342,9 +357,12 @@ footer {
   /* second-section */
   .box-model-2 {
     grid-template-columns: 1fr;
+    padding-top: 10px;
   }
 
   .boxes {
+    display: flex;
+    gap: 20px;
     flex-direction: column-reverse;
   }
 
@@ -370,24 +388,39 @@ footer {
   }
 
   .footer-item {
+    
     display: flex;
     column-gap: 14px;
     row-gap: 14px;
     justify-content: center;
     align-items: center;
   }
-
+ .copyright {
+  flex-wrap: wrap;
+ }
 
 }
-@media only screen and (max-width: 991px) {
-  .boxess {
+
+
+@media only screen and (max-width: 479px) 
+{
+  .img-contant {
+    width: 100%;
+  }
+  .boxess{
+    
     grid-template-columns: 1fr;
-    gap:10px;
   }
-  .box-model-1{
-    gap:20px;
+  .work-benefites {
+    grid-template-columns: 1fr;
   }
-  .benefits{
-    padding: 20px;
+   .copyright {
+  flex-wrap: wrap;
+   }
+  .des {
+    padding-top: 0;
+  }
+  .description-1{
+    padding-block: 20px;
   }
 }
