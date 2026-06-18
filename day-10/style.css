@@ -317,9 +317,7 @@ footer {
   .img-contant {
     width: 100%;
   }
-  .boxess {
-    grid-template-columns: 1fr;
-  }
+
   .work-benefites {
     grid-template-columns: 1fr;
   }
@@ -359,7 +357,7 @@ footer {
   }
 
   .boxess {
-    row-gap: 10px;
+    gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -383,9 +381,8 @@ footer {
 }
 @media only screen and (max-width: 991px) {
   .boxess {
-    grid-template-columns: 1fr 1fr;
-    row-gap: 10px;
-    column-gap: 10px;
+    grid-template-columns: 1fr;
+    gap:10px;
   }
   .box-model-1{
     gap:20px;
