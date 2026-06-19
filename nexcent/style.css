@@ -17,7 +17,7 @@ body {
   line-height: 1.5;
   font-weight: 500;
   display: flex;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   flex-direction: column;
   min-height: 100vh;
   line-height: 1.2;
@@ -84,6 +84,7 @@ img {
 a{
   text-decoration: none;
   text-align: center;
+  display: block;
 }
 /* --------------------------------header-------------------------------- */
 
@@ -244,9 +245,9 @@ text-align: center;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 100px;
 
   
 
