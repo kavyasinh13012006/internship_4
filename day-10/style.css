@@ -1,0 +1,466 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Google Sans, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+
+  line-height: 1.2;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1338px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+.img-cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.img-contain{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+.header {
+  top: 0;
+  width: 100%;
+  position: sticky;
+  box-shadow: 4px 4px 6px #00000045;
+  z-index: 999;
+  background-color: white;
+  padding-block: 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+.navbar a {
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+/* ----------------first-section------------------------ */
+
+.first-main {
+
+  padding-block: 100px;
+}
+
+.box-model-1 {
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  
+}
+
+
+
+.leftside1 {
+  max-width: max-content;
+  
+}
+
+.leftside2 {
+  margin-bottom: 12px;
+  font-size: 18px;
+
+}
+
+.leftside3 {
+  border: 2px solid #00ac8d;
+  border-radius: 6px;
+  max-width: 68px;
+  
+}
+
+.heading {
+  color: #2d3436;
+  font-size: 30px;
+  margin-block: 20px;
+}
+.primary-heading {
+  color: #00ac8d;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.work-benefites {
+  display: grid;
+  gap: 2px;
+  margin-top: 40px;
+  grid-template-columns: repeat(2, 1fr);
+ 
+}
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.benefits {
+  background-color:rgb(255, 255, 255);
+  color: #002a4d;
+  padding: 40px;
+}
+
+.benefites-img {
+  width: 55px;
+  aspect-ratio: 1;
+}
+
+.description{
+  max-width: 570px;
+}
+
+
+
+/* -----------------second-section------------------ */
+
+.second-main {
+  position: relative;
+  padding-top: 100px;
+
+}
+.boxes {
+  display: flex;
+  
+}
+
+.small-box {
+  max-width: 30px;
+  min-height: 10px;
+}
+.box-model-2 {
+  width: 50%;
+  
+}
+
+.heading-1 {
+  font-size: 40px;
+  font-weight: 500;
+ 
+}
+
+.primary-heading-1 {
+  color: #00ac8d;
+}
+
+
+.description-1 {
+  margin-block: 30px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #00ac8d;
+  padding: 18px 24px;
+  max-width: 190px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+ transition: all 0.3s ease-in-out;
+}
+
+
+ a {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+
+}
+.btn:hover {
+  background-color: #002a4d;
+  
+}
+
+.boxess {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  color: rgb(0, 0, 0);
+  gap: 50px;
+  transition: all 0.3s ease-out;
+}
+.box:hover {
+  background-color: #00ac8d;
+  color: #f5f9fd;
+}
+
+.small-box {
+  background-color: #00ac8d;
+  width:10px;
+  aspect-ratio: 1;
+}
+.box:hover .small-box {
+  background-color: white;
+}
+
+
+
+.number {
+ 
+  font-size: 46px;
+  
+}
+
+.define {
+  color: currentColor;
+  margin-top: 30px;
+}
+.hero-img {
+  width: 47%;
+  position: absolute;
+  inset: 0 0 0 auto;
+  
+}
+.img-contant{
+  height: 100%;
+}
+
+
+/* -----------third  section------------ */
+.third-section{
+  padding-top: 60px;
+  padding-bottom: 100px; 
+}
+.data {
+  grid-column-gap: 66px;
+  grid-row-gap: 30px;
+  flex-flow: wrap;
+  justify-content: center;
+  display: flex;
+}
+.hero-img-logo {
+  min-height: 20px;
+  max-width: 130px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+   filter: grayscale(1);
+}
+
+.hero-img-logo:hover {
+  filter: grayscale(0);
+}
+
+/* -------------------footer------------------- */
+
+footer {
+  color: #fff;
+  background-color: #002a4d;
+  padding-block: 10px;
+  margin-top: auto;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.copyright {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright img {
+  margin-right: 5px;
+  max-width: 15px;
+  min-height: 15px;
+}
+.logo-a{
+  display: inline-block
+}
+
+.text {
+  color: rgb(0, 172, 141);
+}
+.footer-icon {
+  aspect-ratio: 1;
+  width: 30px;
+   color: rgb(0, 172, 141);
+  transition: all 0.3s ease-in-out;
+}
+.footer-icon:hover{
+
+  color: white;
+}
+
+.footer-icon-wrapper{
+  display: flex;
+  gap: 10px;
+}
+/* 
+------------media query-------------- */
+
+@media only screen and (max-width: 991px) {
+  .second-main {
+    padding-top: 60px;
+  }
+  .boxess {
+    grid-template-columns: 1fr;
+    gap:10px;
+  }
+  .box-model-1{
+    gap:20px;
+  }
+  .benefits{
+    padding: 20px;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  /* frist-section */
+  .second-main{
+    padding-top: 0;
+  }
+  .img-contant {
+    width: 100%;
+  }
+  .box-model-1 {
+    grid-template-columns: 1fr;
+  }
+  .leftside1 {
+    padding-top: 10px;
+  }
+  .img-contant {
+    order: -1;
+  }
+
+  /* second-section */
+  .box-model-2 {
+    grid-template-columns: 1fr;
+    padding-top: 10px;
+  }
+  
+
+  .boxes {
+    display: flex;
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .hero-img {
+    position: static;
+    width: 100%;
+  }
+  .box-model-2 {
+    width: 100%;
+  }
+
+  .boxess {
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .description{
+    max-width: 100%;
+  }
+.benefites-img {
+  width: 46px;
+}
+  .heading-1 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .des {
+    padding-top: 10px;
+  }
+
+  .footer-item {
+    
+    display: flex;
+    column-gap: 14px;
+    row-gap: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+ .copyright {
+  flex-wrap: wrap;
+ }
+
+}
+
+
+@media only screen and (max-width: 479px) 
+{
+  .first-main {
+
+  padding-block: 45px;
+}
+  .img-contant {
+    width: 100%;
+  }
+  .boxess{
+    
+    grid-template-columns: 1fr;
+  }
+  .work-benefites {
+    grid-template-columns: 1fr;
+  }
+   .copyright {
+  flex-wrap: wrap;
+   }
+  .des {
+    padding-top: 0;
+  }
+  .description-1{
+    padding-block: 20px;
+  }
+  .third-section{
+    padding-bottom: 60px;
+  }
+}
