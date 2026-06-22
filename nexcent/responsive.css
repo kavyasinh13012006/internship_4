@@ -21,6 +21,27 @@
   .review-wrapper{
   gap: 100px;
   }
+.collection-wrapper{
+
+  column-gap: 10px;
+
+}
+ .collection-icon {
+   
+    justify-content: center;
+    gap: 10px;
+   
+}
+.rigth-side-icon{
+ 
+  justify-content: center;
+  row-gap: 10px;
+
+}
+.collection-img {
+    width: 400px;
+   
+}
 
 }
 
@@ -58,6 +79,20 @@
   .review-left{
     margin-top: 30px;
   }
+
+  .collection-wrapper{
+    flex-direction: column;
+  }
+  .collection-icon {
+   
+    justify-content: center;
+    gap: 32px;
+}
+.collection-img {
+    width: 400px;
+    margin-top: 20px;
+   
+}
 }
 @media only screen and (max-width: 479px) {
   .experience-heading{
@@ -84,4 +119,25 @@
 .data-heading{
   font-size: 26px;
 }
+ .collection-icon {
+   
+    justify-content: center;
+    gap: 10px;
 }
+.rigth-side-icon{
+ 
+  justify-content: center;
+  row-gap: 10px;
+
+}
+.collection-img {
+    width: 300px;
+   
+}
+.collection-right{
+  margin-block: 0;
+}
+}
+
+
+/* ----------------------blog-section--------------------- */
