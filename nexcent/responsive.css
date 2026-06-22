@@ -18,7 +18,9 @@
   column-gap:100px;
 }       
     
-
+  .review-wrapper{
+  gap: 100px;
+  }
 
 }
 
@@ -49,7 +51,13 @@
 .data-left-side{
     padding-block: 50px;
 }
-
+ .review-wrapper{
+  flex-direction: column;
+  gap:10px
+  }
+  .review-left{
+    margin-top: 30px;
+  }
 }
 @media only screen and (max-width: 479px) {
   .experience-heading{

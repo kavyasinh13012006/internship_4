@@ -94,6 +94,10 @@ p{
   color: var(--fourth-color);
   font-weight: 400;
 }
+span{
+  color: var(--secondary-color);
+ 
+}
 /* --------------------------------header-------------------------------- */
 
 .header {
@@ -178,6 +182,7 @@ p{
   text-decoration: none;
 }
 
+
 /* 
 -----------------------------first-section-------------------------------- */
 
@@ -203,14 +208,11 @@ p{
 
 .experience-heading{
   font-weight: 600;
-  color: #18191F;
+
   margin-bottom: 16px;
 }
 
-.experience-heading-1{
-  color: var(--secondary-color);
- 
-}
+
 .experience-para{
    line-height: .6;
    font-weight: 400;
@@ -234,7 +236,7 @@ p{
  
 /*------------------------------------ clients-section------------------------ */
 .clients-section{
-
+  min-height: 190px;
   padding-top:40px;
   background-color: var(--main-color);
 }
@@ -274,7 +276,7 @@ text-align: center;
 /* ----------------community-section--------------------- */
 
 .communtiy-section{
-
+  min-height: 416px;
   padding-top: 40px;
 
 }
@@ -331,7 +333,7 @@ text-align: center;
 /* ----------------------data-section------------- */
 .data-section{
   margin-top: 42px;
-  height: 434px;
+  min-height: 434px;
  
 }
 .data-wrapper{
@@ -366,21 +368,19 @@ text-align: center;
 /* ------review-section -------------*/
 
 .review-section{
+  background-color: var(--primary-color);
   min-height: 288px;
   margin-top: 48px;
+  
 }
 
 .review-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 72px;
+  column-gap: 315px;
 }
-.revivew-left{
-  margin-block: 84px;
-  min-height: 120px;
-  max-width: 540px;
-}
+
 
 .review-icon{
   width:  48px;
@@ -390,17 +390,23 @@ text-align: center;
 
 .review-item{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   column-gap: 16px;
 }
 .review-right{
+   min-height: 160px;
+   max-width: 540px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap:40px;
+  gap: 50px;
+  margin-block: 64px;
 }
 
-
+.review-heading{
+  
+  margin-bottom: 8px;
+}
 
 
 
