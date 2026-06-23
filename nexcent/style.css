@@ -583,8 +583,8 @@ row-gap: 32px;
 
 .footer-icon{
   display: flex;
-  justify-content: space-between;
-  gap:10px;
+
+  gap:16px;
   align-items: center;
 }
 .footer-left-side{
@@ -606,21 +606,24 @@ row-gap: 32px;
   align-items: start;
   gap:10px;
   flex-wrap: wrap;
-  width: 88%;
+  width: 78%;
   max-width: 612px;
   
 }
 .icon-logo{
   width: 32px;
-  height: 32px;
-  border-radius: 15px;
+  aspect-ratio: 1;
+  border-radius: 100%;
   padding: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
 
-  background-color:grey;
+background-color:grey;
   
 }
 .logo-img{
-    width: 18px;
+    width: 108%;
   aspect-ratio: 1;
 }
 .icon-logo:hover{
