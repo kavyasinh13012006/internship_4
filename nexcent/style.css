@@ -574,15 +574,39 @@ row-gap: 32px;
 .footer-section{
   background-color: #263238;
   color: white;
+  padding-block: 74px;
+}
+.para{
+  margin-block: 40px;
 }
 
+.footer-icon{
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+  align-items: center;
+}
 
+.footer-contant{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
 
+.footer-right-side{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 60px;
+  color: #F5F7FA;
+}
 
+.footer-list li{
+  list-style: none;
 
-
-
-
+  
+}
 
 
 
