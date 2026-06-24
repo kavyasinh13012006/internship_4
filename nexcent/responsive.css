@@ -18,7 +18,11 @@
   column-gap:100px;
 }       
     
-
+ .community-box {
+    gap: 30px;
+    
+   
+}
 .collection-wrapper{
 
   column-gap: 10px;
@@ -42,6 +46,29 @@
   
 }
 
+.nav-links{
+
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--primary-color);
+    width: 100%;
+
+    box-shadow: 1px 1px 4px 0px #a7b0bc;
+    
+}
+
+.nav-links li{
+  padding: 10px;
+  border-bottom: 1px;
+  
+}
+
+.menu-btn{
+  display: block;
+}
+
 
 }
 
@@ -54,15 +81,14 @@
   justify-content: center;
   column-gap:100px;
 }
- .community-box {
-    row-gap: 20px;
-    justify-content: center;
-  
-}
+
 .box-model{
   max-width: 400px;
   
  
+}
+.community-box {
+  grid-template-columns: repeat(1,1fr);
 }
  h3{
   font-size: 20px;
@@ -80,7 +106,7 @@
   .review-left{
     margin-top: 30px;
   }
-
+  
   .collection-wrapper{
     flex-direction: column;
   }
@@ -112,22 +138,28 @@
 
 }
 @media only screen and (max-width: 479px) {
+
+  .img-logo{
+    max-width: 120px;
+  }
+  .log-in, .sign-up{
+    font-size: 10px;
+    padding: 5px 5px;
+  }
   .hero-heading{
         font-size: 25px;
     }
-
- 
+  .login-btn{
+    gap:4px;
+  }
+ .nav-btn-wrapper{
+  width: 25px;
+ }
   .logocase-section{
   justify-content: center;
   column-gap:100px;
 }
- .community-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap:12px;
-  
-}
+ 
 .box-model{
   max-width: 360px;
   
@@ -147,6 +179,15 @@
   row-gap: 10px;
 
 }
+.review-icon{
+  width: 30px;
+}
+.community-box {
+  grid-template-columns: repeat(1,3fr);
+  justify-items: center;
+    
+   
+}
 .collection-img {
     width: 300px;
    
@@ -156,6 +197,12 @@
 }
 .h1{
   font-size: 40px;
+}
+.contant-heading{
+  font-size: 16px;
+}
+.contant-para{
+  font-size: 12px;
 }
 }
 

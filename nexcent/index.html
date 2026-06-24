@@ -12,17 +12,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
+    
 </head>
 
 <body>
-
+    
     <!-- -----------------------header------------------------>
 
     <header>
         <div class="header-container container">
 
             <div class="nav">
+
                 <a class="logo" href="/index.html">
                     <img class="img-logo" src="img/logo/logo1.png" alt="Nexcent logo"></a>
 
@@ -38,9 +39,28 @@
 
 
                 <div class="login-btn">
-                    <a class="login-link" href="javascript:void(0);">Login</a>
+                    <a class="log-in" href="javascript:void(0);">Login</a>
                     <a class="sign-up btn" href="javascript:void(0);">sign&nbsp;up</a>
+
+
+                    <div class="menu-btn" onclick="openMenu()">
+                        <svg class="nav-btn-wrapper" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <path
+                                d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
+                        </svg>
+                    </div>
+                    <div class="close-btn" onclick="closeMenu()">
+                        <svg class="nav-btn-wrapper" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <path
+                                d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z" />
+                        </svg>
+                    </div>
                 </div>
+
+
+                
+
+
 
             </div>
 
@@ -432,19 +452,20 @@
 
                 <div class="cta-wrapper-data">
                     <h2 class="h1">Pellentesque suscipit fringilla libero eu.</h2>
-                        
-                        <a  class="para-icon btn" href="javascript:void(0);">
-                            <h4 class="btn-head">Get a Demo</h4>
-                            <svg class="logo-showcase-icon-single" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9.30026 6.55017L11.77 4.08044C12.0629 3.78753 12.0629 3.31265 11.77 3.01975L9.30026 0.550015M11.5503 3.55009L0.550049 3.55009"
-                                    stroke="currentColor" stroke-width="1.1" stroke-linecap="round" />
-                            </svg>
-                        </a>
-                     
-                    
 
-                   
+                    <a class="para-icon btn" href="javascript:void(0);">
+                        <h4 class="btn-head">Get a Demo</h4>
+                        <svg class="logo-showcase-icon-single" viewBox="0 0 13 8" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.30026 6.55017L11.77 4.08044C12.0629 3.78753 12.0629 3.31265 11.77 3.01975L9.30026 0.550015M11.5503 3.55009L0.550049 3.55009"
+                                stroke="currentColor" stroke-width="1.1" stroke-linecap="round" />
+                        </svg>
+                    </a>
+
+
+
+
 
                 </div>
             </div>
@@ -540,15 +561,14 @@
                                 <input type="email" class="email" placeholder="Your Email address">
                                 <button class="footer-icon-btn icon-btn">
 
-                                    <svg   viewBox="0 0 17 17" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
+                                    <svg viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
                                             d="M16.2803 0.219691C16.4841 0.423419 16.5531 0.725843 16.4579 0.997784L11.2079 15.9978C11.1063 16.288 10.8378 16.4869 10.5306 16.4994C10.2233 16.5119 9.93954 16.3356 9.81465 16.0546L6.9318 9.56822L0.4454 6.68538C0.16439 6.56049 -0.0119081 6.27671 0.000627214 5.96945C0.0131626 5.66219 0.211991 5.39371 0.502241 5.29213L15.5022 0.0421271C15.7742 -0.0530519 16.0766 0.0159624 16.2803 0.219691ZM8.39456 9.16612L10.4171 13.7167L13.9564 3.60429L8.39456 9.16612ZM12.8957 2.54362L2.78331 6.08297L7.3339 8.10546L12.8957 2.54362Z"
-                                            fill="currentColor"/>
+                                            fill="currentColor" />
 
                                     </svg>
 
-                            
+
                                 </button>
 
                             </form>
@@ -562,6 +582,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

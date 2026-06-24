@@ -107,21 +107,28 @@ span {
 
 header {
   top: 0;
-
+ 
   width: 100%;
   position: sticky;
   z-index: 999;
   background-color: var(--primary-color);
+  position: relative;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap:20px;
+  
 }
 
 .logo {
   padding-block: 30px;
+}
+.img-logo{
+  max-width: 154px;
+  max-height: 24px;
 }
 
 .nav-links {
@@ -156,9 +163,10 @@ header {
 
   text-decoration: none;
 }
-.login-link {
+.log-in {
   color: var(--secondary-color);
   padding: 10px 20px;
+  font-size: 14px;
 }
 .login-link:hover {
   color: var(--primary-color);
@@ -168,6 +176,17 @@ header {
 
 .sign-up {
   padding: 10px 20px;
+  font-size: 14px;
+}
+
+.nav-btn-wrapper{
+   display: block;
+  width: 40px;
+  
+}
+
+.menu-btn, .close-btn{
+  display: none;
 }
 
 /* 
@@ -249,11 +268,11 @@ header {
 }
 
 .community-box {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 128px;
+  
+ 
 }
 .box-model {
   display: flex;
