@@ -86,7 +86,7 @@ img {
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 a {
   text-decoration: none;
@@ -308,9 +308,9 @@ header {
 
 .review-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  column-gap: 315px;
+  -gap: 20px;
 }
 
 .review-icon {
@@ -325,8 +325,7 @@ header {
   column-gap: 20px;
 }
 .review-right {
-  min-height: 160px;
-  max-width: 540px;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
@@ -484,11 +483,7 @@ header {
 }
 
 .btn-head {
-  color: white;
   font-size: 16px;
-}
-.btn:hover {
-  color: #4caf4f;
 }
 
 /* -----------footer-section-------- */
@@ -553,6 +548,7 @@ header {
   font-size: 14px;
   color: #f5f7fa;
   font-weight: 400;
+
 }
 
 .footer-heading {
@@ -569,7 +565,7 @@ header {
   border-radius: 8px;
   background-color: #d9dbe1;
 
-  padding: 10px 20px;
+  padding: 10px 34px;
 }
 .footer-input {
   position: relative;
@@ -580,4 +576,6 @@ header {
   right: 10px;
   width: 18px;
   height: 18px;
+  background-color: transparent;
+  border: none;
 }
