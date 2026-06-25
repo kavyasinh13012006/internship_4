@@ -406,7 +406,7 @@ header {
 }
 .para-icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   column-gap: 5px;
   flex-shrink: 0;
@@ -573,16 +573,21 @@ header {
   width: 108%;
   aspect-ratio: 1;
 }
-.icon-logo:hover {
-  color: #0389cd;
-}
+
 
 .footer-list li {
   list-style: none;
   font-size: 14px;
- 
+
   font-weight: 400;
 
+}
+.footer-list li a{
+color: #F5F7FA;
+transition: all 0.3s ease-in-out;
+}
+.footer-link:hover{
+  color: var(--secondary-color);
 }
 
 .footer-heading {
@@ -591,6 +596,7 @@ header {
 .footer-list {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   row-gap: 12px;
 }
 
@@ -598,7 +604,7 @@ header {
   border: 1px transparent;
   border-radius: 8px;
   background-color:  #d9dbe133;
- padding: 12px;
+  padding: 12px;
   padding-inline: 10px 34px;
 }
 .email::placeholder{
@@ -616,6 +622,4 @@ header {
   background-color: transparent;
   border: none;
 }
-.footer-link:hover{
-  color: #4caf4f;
-}
+
