@@ -172,6 +172,7 @@ header {
 .log-in {
   color: var(--secondary-color);
   padding: 10px 20px;
+  font-size: 14px;
   transition: all 0.3s ease-in-out;
 }
 .log-in:hover{
