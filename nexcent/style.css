@@ -226,10 +226,7 @@ header {
   
 }
 
-.hero-img{
-    max-width: 392px;
-    min-height: 408px;
-}
+
 .hero-title{
   color: #4D4D4D;
 }
@@ -243,6 +240,7 @@ header {
 
 .hero-content-right {
   max-width: 392px;
+  min-height: 408px;
 }
 
 /*------------------------------------ clients-section------------------------ */
@@ -260,7 +258,7 @@ header {
 }
 
 .logocase-item {
-  min-height: auto;
+  max-height: 48px;
 }
 
 /* ----------------community-section--------------------- */
@@ -389,29 +387,31 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 78px;
+  column-gap: 20px;
 }
+.collection-wrapper-icons{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+ gap:10px;
 
+
+}
 .collection-icon {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap:20px;
+  justify-content: center;
+  gap:10px;
+  flex-shrink: 0;
+  
   
 }
-.collection-icon-items {
+.collection-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow-x: auto;
   column-gap: 42px;
-}
-.collection-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 7px;
-  
 }
 
 .collection-right {
