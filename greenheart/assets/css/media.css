@@ -23,7 +23,9 @@
 .links{
     flex-direction: row;
     column-gap: 28px;
+    margin-bottom: 12px;
 }
+
 }
 
 @media only screen and (max-width: 429px) {
