@@ -1,3 +1,51 @@
-header{
-    background-color: var(--unnamed-color-141414);
+header {
+  
+  padding-top: 58px;
+  width: 100%;
+  color: var(--unnamed-color-ffffff);
+  text-transform: uppercase;
+  opacity: 47%;
+
+ 
+}
+.img-logo1 {
+  max-width: 256px;
+  min-height: 50px;
+ 
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    margin-inline: 86px;
+}
+.header-nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:42px;
+
+}
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+/* --------------------hero-section----------------*/
+.hero-section{
+    position: relative;
+}
+.hero-wrapper{
+    position: fixed;
+    top:0; 
+    z-index: -1;
+  
+}
+.hero-section-img{
+  
+    max-width: 1308px;
+    min-height: 802px;
+    
 }
