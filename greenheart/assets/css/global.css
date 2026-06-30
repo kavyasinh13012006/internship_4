@@ -42,12 +42,7 @@ body {
   padding-inline: 20px;
   margin-inline: auto;
 }
-.footer-container {
-  max-width: 1311px;
-  width: 100%;
-  padding-inline: 20px;
-  margin-inline: auto;
-}
+
 
 a {
   text-decoration: none;

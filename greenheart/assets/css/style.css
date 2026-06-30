@@ -1,25 +1,22 @@
-header {
+.header {
   width: 100%;
-
+  padding-block: 26px;
   padding-top: 58px;
   position: fixed;
   top: 0;
   z-index: 999;
-   transition: all 0.3s ease-in-out;
-
+  transition: all 0.3s ease-in-out;
 }
-header.active{
+header.active {
   background-color: var(--unnamed-color-ffffff);
- 
 }
-.nav-link-a{
-
+.nav-link-a {
   text-align: center;
- 
+
   color: var(--unnamed-color-ffffff);
   font-weight: 800;
 }
-.img-logo1 {
+.img-logo {
   max-width: 256px;
   min-height: 50px;
   color: var(--unnamed-color-ffffff);
@@ -56,122 +53,108 @@ header.active{
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.47) 0%, rgba(0, 0, 0, 0.47) 50%),
     url(../imges/hero-section-img.png);
-  
+
   background-repeat: no-repeat;
 
   background-position: center;
   background-size: cover;
- 
-
 }
 .hero-wrapper {
   padding-top: 224px;
   padding-bottom: 124px;
-  max-width: 511px;
+  max-width: 512px;
 }
 .hero-section-title {
   font-size: 110px;
   color: var(--unnamed-color-ffffff);
   font-weight: 700;
   line-height: 1;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
-.hero-overlay{
+.hero-overlay {
   min-height: 50px;
   background-color: var(--unnamed-color-ffffff);
   clip-path: polygon(100% 0, -10% 100%, 100% 100%);
- 
 }
 
 /* -----------------two-column-section--------------- */
 
-.two-column-section{
+.two-column-section {
   padding-top: 106px;
   position: relative;
 }
-.two-column-wrapper{
+.two-column-wrapper {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap:92px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 92px;
 }
-.two-column-img-content{
-  max-width: 787px;
-  min-height: 610px;  
+
+.two-column-img-content {
+  max-width: 788px;
+  min-height: 610px;
   position: absolute;
-  left:400px;
+  left: 0;
+  top:0;
 }
-.two-column-content{
-  padding-block: 143px;
+.two-column-content {
+  padding-block: 144px;
 }
-.title-primary{
+.title-primary {
   color: #14141478;
   width: 488px;
-  
 }
-.title-secondary{
+.title-secondary {
   font-size: 60px;
   font-weight: 700;
   width: 488px;
   line-height: 1;
- 
- 
 }
-.title-secondary-1{
+.title-secondary-1 {
   font-weight: 400;
 }
-.two-column-para{
+.two-column-para {
   font-size: 15px;
   font-weight: 300;
   color: #14141480;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
-
+/* ------------academy-section--------- */
+.academy-section{
+  padding-block: 60px;
+  position: relative;
+}
 .academy-img-content{
-  max-width: 787px;
+  max-width: 788px;
   min-height: 610px;
   position: absolute;
-  right:400px;
-  top:200px;  
+  right:0;
+  top: 0;
 }
+/* ----------------one-column-section-------------- */
+.one-column-section {
+  background: url("../imges/Rectangle\ 591.png");
+  background-repeat: no-repeat;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  background-position: center;
+}
+.top {
+  padding-top: 154px;
+  padding-left: 110px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  color: var(--unnamed-color-ffffff);
+}
+.one-column-title {
+  font-size: 40px;
+  flex-shrink: 0;
+}
+.two-column-btton{
+  margin-bottom: 124px;
+  justify-items: center;
+}
 
 /* ----------footer-section--------------- */
 footer {
@@ -210,10 +193,10 @@ footer {
   font-weight: 700;
 }
 .span-details-title {
-  margin-top: 15px;
+  margin-top: 16px;
 }
 .footer-infor1-description {
-  margin-block: 23px 13px;
+  margin-block: 24px 14px;
   font-size: 21px;
   max-width: 334px;
   font-weight: 700;
@@ -222,9 +205,9 @@ form {
   position: relative;
 }
 .email {
-  padding-block: 23px 21px;
-  padding-left: 25px;
-  width: 423px;
+  padding-block: 24px 22px;
+  padding-left: 26px;
+  width: 424px;
   border: 1px solid transparent;
   background-color: #f6f4f41f;
   position: relative;
@@ -239,8 +222,9 @@ form {
   display: flex;
   align-items: center;
   justify-content: start;
-  left: 396px;
-  top: 5px;
+  right: -30px;
+  top:90%;
+  transform: translatey(-50px);
 }
 .footer-btn {
   border: none;
@@ -274,7 +258,7 @@ form {
   align-items: center;
   border-radius: 50%;
   width: 50px;
-  height: 50px;
+  aspect-ratio: 1;
   background-color: var(--unnamed-color-64d281);
 }
 .links {
@@ -283,7 +267,7 @@ form {
   flex-direction: column;
   align-items: start;
   row-gap: 28px;
-  margin-bottom: 85px;
+  margin-bottom: 86px;
 }
 .infor3-link {
   color: current-colorfff85;
