@@ -31,6 +31,7 @@ body {
   font-weight: 400;
   min-height: 100vh;
   display: flex;
+  background-color: var(--unnamed-color-ffffff);
   color: var(--unnamed-color-141414);
   flex-direction: column;
   font-family: "Raleway", "Poppins", sans-serif;

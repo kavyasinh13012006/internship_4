@@ -61,9 +61,7 @@ header.active{
 
   background-position: center;
   background-size: cover;
-  position: sticky;
-  top: 0;
-  left: 0;
+ 
 
 }
 .hero-wrapper {
@@ -78,7 +76,7 @@ header.active{
   line-height: 1;
   margin-bottom: 15px;
 }
-.section-overlay{
+.hero-overlay{
   min-height: 50px;
   background-color: var(--unnamed-color-ffffff);
   clip-path: polygon(100% 0, -10% 100%, 100% 100%);
@@ -86,12 +84,7 @@ header.active{
 }
 
 /* -----------------two-column-section--------------- */
-.section-overlay{
-  min-height: 50px;
-  background-color: var(--unnamed-color-ffffff);
-  clip-path: polygon(100% 0, -10% 100%, 100% 100%);
- 
-}
+
 .two-column-section{
   padding-top: 106px;
   position: relative;
