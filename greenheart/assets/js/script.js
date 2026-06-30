@@ -18,21 +18,7 @@ closeBtn.addEventListener("click", () => {
   side.classList.remove("active");
   headerLogo.classList.remove("active");
   closeBtn.style.display = "none";
-  menuBtn.style.display = "block";
+ 
 });
 
-// function openMenu() {
-//   nav.style.display = "block";
-//   menuBtn.style.display = "none";
-//   closeBtn.style.display = "block";
-//     btn.style.display = "block";
-//     side.style.display = "block";
 
-// }
-
-// function closeMenu() {
-//   nav.style.display = "none";
-//   menuBtn.style.display = "block";
-//   closeBtn.style.display = "none";
-//   btn.style.display = "none";
-// }

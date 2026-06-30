@@ -16,7 +16,9 @@ header.active{
   max-width: 256px;
   min-height: 50px;
 }
-
+.header-btton{
+  position: sticky;
+}
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -38,17 +40,17 @@ header.active{
 .nav-btn-wrapper {
   width: 36px;
 }
-/* .menu-btn,
+.menu-btn,
 .close-btn {
   display: none;
-} */
+}
 
 /* --------------------hero-section----------------*/
 .hero-section {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.47) 0%, rgba(0, 0, 0, 0.47) 50%),
     url(../imges/hero-section-img.png);
-
+  
   background-repeat: no-repeat;
 
   background-position: center;
@@ -66,6 +68,87 @@ header.active{
   line-height: 1;
   margin-bottom: 15px;
 }
+.hero-overlay{
+  min-height: 50px;
+  background: linear-gradient(180deg,rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 1) 50%);
+
+}
+
+/* -----------------two-column-section--------------- */
+.two-column-section{
+  padding-top: 106px;
+}
+.two-column-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:92px;
+}
+.img-content{
+  max-width: 787px;
+  min-height: 610px;
+  position: absolute;
+  left:400px;
+}
+.two-column-content{
+  padding-block: 143px 160px;
+}
+.title-primary{
+  color: #14141478;
+}
+.title-secondary{
+  font-size: 60px;
+  font-weight: 700;
+ 
+}
+.title-secondary-1{
+  font-weight: 400;
+}
+.two-column-para{
+  font-size: 15px;
+  font-weight: 300;
+  color: #14141480;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;

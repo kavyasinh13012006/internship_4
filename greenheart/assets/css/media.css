@@ -1,13 +1,9 @@
 @media only screen and (max-width: 991px) {
 
-  /* .menu-btn{
+  .menu-btn{
     display: block;
   }
-  .header-nav-links{
-    display: none;
   
-    
-  } */
    .header-logo{
     transition: all 0.3s ease-in-out;
    }
@@ -24,11 +20,8 @@
    font-size: 29px;
 
   }
-  /* .header-btton{
-    display: none;
-   
-  } */
-     .right-side{
+
+    .right-side{
     flex-direction: column;
     justify-content: start;
     align-items: start;
@@ -43,13 +36,20 @@
     visibility: hidden;
     transition: all 0.3s ease-in-out;
   }
-  
+  .header-nav-links{
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+  }
 
   .right-side.active{
 
     opacity: 1;
     visibility: visible;
 
+  }
+  .header-btton{
+    margin-left: 10px;
   }
   
 }
