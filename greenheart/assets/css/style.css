@@ -121,18 +121,18 @@ header.active {
 
 /* ------------academy-section--------- */
 .academy-section{
-  padding-block: 60px;
+ 
   position: relative;
 }
 .academy-img-content{
   max-width: 788px;
   min-height: 610px;
-  position: absolute;
+  position:absolute;
   right:0;
   top: 0;
 }
 /* ----------------one-column-section-------------- */
-.one-column-section {
+.banner-section {
   background: url("../imges/Rectangle\ 591.png");
   background-repeat: no-repeat;
 
@@ -147,11 +147,11 @@ header.active {
   align-items: center;
   color: var(--unnamed-color-ffffff);
 }
-.one-column-title {
+.banner-title {
   font-size: 40px;
   flex-shrink: 0;
 }
-.two-column-btton{
+.banner-btton{
   margin-bottom: 124px;
   justify-items: center;
 }
