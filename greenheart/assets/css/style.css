@@ -77,6 +77,7 @@ header.active{
 /* -----------------two-column-section--------------- */
 .two-column-section{
   padding-top: 106px;
+  position: relative;
 }
 .two-column-wrapper{
   display: grid;
@@ -90,14 +91,17 @@ header.active{
   left:400px;
 }
 .two-column-content{
-  padding-block: 143px 160px;
+  padding-block: 143px;
 }
 .title-primary{
   color: #14141478;
+  
 }
 .title-secondary{
   font-size: 60px;
   font-weight: 700;
+  width: 488px;
+ 
  
 }
 .title-secondary-1{
@@ -110,6 +114,14 @@ header.active{
   margin-bottom: 15px;
 }
 
+
+.academy-img-content{
+  max-width: 787px;
+  min-height: 610px;
+  position: absolute;
+  right:400px;
+  top:1000px;  
+}
 
 
 

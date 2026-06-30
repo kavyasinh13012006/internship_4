@@ -80,7 +80,8 @@ li {
   transition: all 0.3s ease-in-out;
   max-width: max-content;
   border: 1px solid transparent;
-  padding: 22px 22px;
+  padding: 23px 29px;
+  font-weight: 700;
 }
 .btnwhite {
   color: var(--unnamed-color-ffffff);
