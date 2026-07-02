@@ -1,7 +1,6 @@
 .header {
   width: 100%;
   padding-block: 26px;
-  padding-top: 58px;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -27,7 +26,6 @@ header.active {
   background-color: var(--white-100);
   padding-inline: 16px;
   transition: all 0.3s ease-in-out;
-  height: 0;
 }
 
 .header-nav-icon {
@@ -50,10 +48,6 @@ header.active {
   font-weight: 700;
 }
 
-.sub-nav:hover .sub-menu {
-  opacity: 1;
-  visibility: visible;
-}
 .img-logo {
   max-width: 256px;
   min-height: 50px;
@@ -94,7 +88,6 @@ header.active {
     url(../imges/hero-section-img.png);
 
   background-repeat: no-repeat;
-
   background-position: center;
   background-size: cover;
 }
@@ -104,10 +97,7 @@ header.active {
   max-width: 512px;
 }
 .hero-section-title {
-  font-size: 110px;
   color: var(--white-100);
-  font-weight: 700;
-  line-height: 1;
   margin-bottom: 16px;
 }
 .hero-overlay {
@@ -119,35 +109,39 @@ header.active {
 /* -----------------two-column-section--------------- */
 
 .two-column-section {
-  padding-top: 106px;
+  padding-top: 114px;
+}
+.two-column-section-wrapper {
   position: relative;
 }
 .two-column-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 92px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-
 .two-column-img-content {
-  max-width: 788px;
   min-height: 610px;
+  width: calc(50% + 153px);
+}
+.two-column-img {
+  width: 50%;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
 }
 .two-column-content {
-  padding-block: 144px;
+  width: 50%;
+  padding-left: 30px;
+  margin-left: auto;
 }
 .title-primary {
   color: #14141478;
-  width: 488px;
+  margin-bottom: 3px;
 }
-.title-secondary {
-  font-size: 60px;
-  font-weight: 700;
-  width: 488px;
-  line-height: 1;
-}
+
 .title-secondary-1 {
   font-weight: 400;
 }
@@ -155,45 +149,63 @@ header.active {
   font-size: 15px;
   font-weight: 300;
   color: #14141480;
-  margin-bottom: 16px;
+  margin-block: 14px 16px;
 }
 
 /* ------------academy-section--------- */
 .academy-section {
-  position: relative;
+  padding-top: 134px;
 }
-.academy-img-content {
-  max-width: 788px;
-  min-height: 610px;
+.academy-wrapper {
+  flex-direction: row-reverse;
+}
+.academy-img {
   position: absolute;
+  left: auto;
   right: 0;
-  top: 0;
+}
+
+.academy-content {
+  width: 50%;
+  padding-right: 30px;
+  margin-right: auto;
 }
 /* ----------------one-column-section-------------- */
 .banner-section {
-  background: url("../imges/Rectangle\ 591.png");
+  padding-top: 134px;
+}
+.banner-content {
+  padding-block: 124px;
+  background: url("../imges/Rectangle 591.png");
   background-repeat: no-repeat;
-
   background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .top {
-  padding-top: 154px;
-  padding-left: 110px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 10px;
-  align-items: center;
   color: var(--white-100);
 }
 .banner-title {
   font-size: 40px;
+  font-weight: 400;
   flex-shrink: 0;
 }
 .banner-btton {
   margin-bottom: 124px;
   justify-items: center;
 }
-
+/*----------------- action-section------------------------------------ */
+.action-section {
+  padding-block: 134px;
+}
 /* ----------footer-section--------------- */
 footer {
   margin-top: auto;
@@ -221,6 +233,7 @@ footer {
 .footer-infor1-title {
   font-size: 50px;
   font-weight: 400;
+  line-height: 1.65;
 }
 .details-title {
   font-weight: 300;
@@ -245,7 +258,8 @@ form {
 .email {
   padding-block: 24px 22px;
   padding-left: 26px;
-  width: 424px;
+  max-width: 424px;
+  width: 100%;
   border: 1px solid transparent;
   background-color: #f6f4f41f;
   position: relative;
@@ -260,7 +274,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: start;
-  right: -30px;
+  right: -7%;
   top: 90%;
   transform: translatey(-50px);
 }
