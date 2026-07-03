@@ -163,6 +163,20 @@ header.active {
   padding-top: 34px;
   padding-bottom: 154px;
 }
+.academies-innovator {
+  padding: 8px 20px;
+  background-color: var(--green);
+  max-width: 210px;
+  position: absolute;
+  top: 4%;
+  left: -15px;
+}
+.academies-para {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--white);
+}
+
 .academies-school-wrapper-title {
   color: var(--primary-color);
   max-width: 1046px;
@@ -208,6 +222,7 @@ header.active {
   gap: 7px;
 }
 .school-details-title {
+  max-width: 226px;
   font-size: 24px;
   line-height: 1;
   font-weight: 700;
@@ -379,16 +394,20 @@ header.active {
 }
 .team-primary {
   color: var(--white);
+  font-size: 82px;
+}
+.school-btn:hover {
+  background-color: var(--green);
 }
 /*----------- academies-school-section----------- */
 .academies-school-team-section {
-  margin-block: 40px;
+  padding-right: 60px;
   padding-block: 40px;
   background-color: var(--black);
 }
-.school-team-section-img {
-  min-height: 382px;
-  width: calc(50% + 40px);
+/* ------academy-innovator-section------ */
+.academy-innovator-section {
+  padding-block: 90px 108px;
 }
 /* ----------------WORKING-section-------------- */
 .working-section {
